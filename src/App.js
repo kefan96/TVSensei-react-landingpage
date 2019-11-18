@@ -1,28 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react';
 import Navbar from './Navbar';
-import Header from './Header';
-import Intro from './Intro';
-import Vission from './Vission';
-import Mission from './Mission';
-import Solution from './Solution';
-import Contact from './Contact';
-import Footer from './Footer';
+import Home from './Home';
+import Team from './Team';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="landing">
+      <Router>
         <Navbar />
-        <Header />
-        <Intro />
-        <Vission />
-        <Mission />
-        <Solution />
-        <Contact />
-        <Footer />
-      </div>
+
+        <Switch>
+          <Route path="/team">
+            <Team />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     );
   }
 }

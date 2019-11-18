@@ -7,7 +7,7 @@ class Header extends Component {
             <div>
                 <div className="cover"></div>
                 <video className="background" autoplay="autoplay" loop="loop" muted="muted">
-                    <source src="/Slow Motion Video Of People.mp4" type="video/mp4" />
+                    <source src="/animation.mp4" type="video/mp4" />
                 </video>
                 <section id="landing-header">
                     <h1>Welcome to TVSensei!</h1>
