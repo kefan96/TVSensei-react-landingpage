@@ -1,0 +1,15 @@
+.vission {
+    background-color: #000a17;
+    color: #f0f0f0;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.sectionPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: auto;
+    width: 300px;
+}

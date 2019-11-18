@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+.intro p,
+.intro li {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.intro {
+    background-color: #f0f0f0;
+    padding: 6rem;
+    width: 100%;
+}
+
+.intro a {
+    color: steelblue;
+}
+
+.intro a:hover {
+    color: #555;
+}

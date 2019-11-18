@@ -1,0 +1,41 @@
+.flash-close {
+    cursor: pointer;
+}
+
+.flash-close:hover {
+    font-weight: bold;
+}
+
+.flash {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#navbar {
+    transition: all 0.4s;
+    background-color: #000a17;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar .nav-item {
+    padding-left: .6rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #b4d5ff;
+}
+
+#title {
+    color: white;
+    font-weight: bold;
+}
+
+#title:hover {
+    color: #b4d5ff;
+}
