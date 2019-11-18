@@ -1,0 +1,14 @@
+.person-img img {
+    border-radius: 50%;
+    width: 300px;
+    object-fit: cover;
+    margin-right: 6rem;
+}
+
+
+.person {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}

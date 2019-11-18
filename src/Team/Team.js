@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import './Team.css';
+import Header from './Header';
+import People from './People';
 
 class Team extends Component {
     render() {
         return(
             <div className="team">
-                <section className="team-header">
-                    <h1>Meet Our Team</h1>
-                    <p>Each member of our team is a specialist in his or her field. Together, we make sure you’re investing where the best returns are, while building loyalty across every touchpoint.</p>
-                </section>
+                <Header />
+                <People />
             </div>
         );
     }
