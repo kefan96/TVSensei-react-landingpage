@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Navbar from './Navbar';
 import Home from './Home/Home';
 import Team from './Team/Team';
+import Footer from './Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +24,8 @@ class App extends Component {
             <Home />
           </Route>
         </Switch>
+
+        <Footer />
       </Router>
     );
   }

@@ -5,7 +5,6 @@ import Vission from './Vission';
 import Mission from './Mission';
 import Solution from './Solution';
 import Contact from './Contact';
-import Footer from './Footer';
 
 class Home extends Component {
     render(){
@@ -17,7 +16,6 @@ class Home extends Component {
                 <Mission />
                 <Solution />
                 <Contact />
-                <Footer />
             </div>
         );
     }
