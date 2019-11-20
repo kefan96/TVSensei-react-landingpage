@@ -6,9 +6,10 @@ class Header extends Component {
         return (
             <div>
                 <div className="cover"></div>
-                <video className="background" autoplay="autoplay" loop="loop" muted="muted">
+                {/* <video className="background" autoplay="autoplay" loop="loop" muted="muted">
                     <source src="/animation.mp4" type="video/mp4" />
-                </video>
+                </video> */}
+                <img className="background" src='https://i0.wp.com/tvsensei.com/wp-content/uploads/2019/05/cropped-tv-3774381_1920.jpg?w=2000&ssl=1' alt="" />
                 <section id="landing-header">
                     <h1>Welcome to TVSensei!</h1>
                     <ul>
