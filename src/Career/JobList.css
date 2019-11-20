@@ -1,4 +1,30 @@
 
 .job-list{
     padding: 6rem 8rem;
+    background-color: #f8f8f8;
+}
+
+.job-container {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-list-text a {
+    cursor: pointer;
+    color: #666;
+}
+
+.job-list-text a:hover {
+    text-decoration: underline;
+}
+
+
+email{
+    cursor: pointer;
+    color: #666;
+}
+
+email:hover {
+    text-decoration: underline;
 }
