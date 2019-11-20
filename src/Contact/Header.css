@@ -1,0 +1,19 @@
+.contact-header {
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    background-image: url('https://cdn.pixabay.com/photo/2014/08/25/22/53/information-427515_1280.png');
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20vw;
+}
+
+.contact-header h1, .contact-header p {
+    color: #020017;
+    font-family: 'roboto', monospace;
+}
+
+.contact-header p {
+    font-size: 1.1rem;
+}

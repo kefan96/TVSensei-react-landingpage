@@ -6,14 +6,16 @@
     height: 70vh;
     text-align: center;
     display: flex;
-    background-color: #dcdcdc;
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/26/16/45/rock-1771916_1280.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
     flex-direction: column;
     justify-content: center;
     padding: 0 20vw;
 }
 
 .team-header h1, .team-header p {
-    color: #020017;
     font-family: 'roboto', monospace;
 }
 

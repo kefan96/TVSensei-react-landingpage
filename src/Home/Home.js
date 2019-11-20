@@ -5,6 +5,7 @@ import Vission from './Vission';
 import Mission from './Mission';
 import Solution from './Solution';
 import Contact from './Contact';
+import './Home.css';
 
 class Home extends Component {
     render(){
