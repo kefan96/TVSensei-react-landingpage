@@ -19,7 +19,7 @@ class Intro extends Component {
                         <div class="col-1"></div>
                         <div class="col-3">
                             <img class="sectionPic"
-                            src="https://i1.wp.com/tvsensei.com/wp-content/uploads/2019/05/cropped-TVSenseilogo-1.png?fit=260%2C250&ssl=1"
+                            src="/cropped-TVSenseilogo.png"
                             alt="logo" />
                         </div>
                     </div>
