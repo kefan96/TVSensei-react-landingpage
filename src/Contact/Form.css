@@ -2,3 +2,7 @@
     background-color: #f8f8f8;
     padding: 6rem 8rem;
 }
+
+.required {
+    color: red;
+}
