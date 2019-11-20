@@ -16,9 +16,8 @@
 #navbar {
     transition: all 0.4s;
     background-color: #000a17;
-    font-size: 1.1rem;
     font-family: 'Roboto Mono', monospace;
-    padding: .8rem 1rem;
+    padding: .5rem 1rem;
 }
 
 #navbar .nav-item {
