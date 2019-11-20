@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Navbar from './Navbar';
 import Home from './Home/Home';
 import Team from './Team/Team';
+import Testimonials from './Testimonials/Testimonials';
 import Footer from './Footer';
 import {
   BrowserRouter as Router,
@@ -19,6 +20,9 @@ class App extends Component {
         <Switch>
           <Route path="/team">
             <Team />
+          </Route>
+          <Route path="/testimonials">
+            <Testimonials />
           </Route>
           <Route path="/">
             <Home />

@@ -1,8 +1,4 @@
-.team {
-    position: relative;
-}
-
-.team-header {
+.testimonials-header {
     height: 70vh;
     text-align: center;
     display: flex;
@@ -12,14 +8,11 @@
     padding: 0 20vw;
 }
 
-.team-header h1, .team-header p {
+.testimonials-header h1, .team-header p {
     color: #020017;
     font-family: 'roboto', monospace;
 }
 
-.team-header p {
+.header-subtitle {
     font-size: 1.1rem;
 }
-
-
-

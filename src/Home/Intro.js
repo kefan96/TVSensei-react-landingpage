@@ -13,7 +13,7 @@ class Intro extends Component {
                             <p>We’re out to <strong>revolutionize</strong> language learning as we know it!</p>
                             <p>TVSensei teaches users to speak foreign languages in the context seen on screen—engaging learners with
                             popular TV shows as both audience and actor using <strong>lessons designed by us</strong>.</p>
-                            <p>Scroll down to learn about our mission and our product. And if you're interested, <a href="#">Sign up</a> to
+                            <p>Scroll down to learn about our mission and our product. And if you're interested, <a href="/">Contact Us</a> to
                             see our wonderful contents!</p>
                         </div>
                         <div class="col-1"></div>

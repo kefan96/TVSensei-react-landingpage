@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import './Navbar.css';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 
@@ -26,7 +23,7 @@ class Navbar extends Component {
                     <a className="nav-link" href="/">Career</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">Testimonials</a>
+                    <Link className="nav-link" to="/testimonials">Testimonials</Link>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/">Contact Us</a>
