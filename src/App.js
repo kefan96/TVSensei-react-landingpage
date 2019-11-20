@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Navbar from './Navbar';
 import Home from './Home/Home';
 import Team from './Team/Team';
+import Career from './Career/Career';
 import Contact from './Contact/Contact';
 import Testimonials from './Testimonials/Testimonials';
 import Footer from './Footer';
@@ -27,6 +28,9 @@ class App extends Component {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/career">
+            <Career />
           </Route>
           <Route path="/">
             <Home />
