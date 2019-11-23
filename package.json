@@ -1,5 +1,6 @@
 {
   "name": "tvsensei",
+  "homepage": "https://tvsensei.yangkefan.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
