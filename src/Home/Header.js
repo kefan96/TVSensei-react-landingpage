@@ -19,7 +19,7 @@ class Header extends Component {
                         <li id="slogan-pg">Aprendizado de idiomas, agora divertido</li>
                         <li id="slogan-es">Aprendizaje de idiomas, ahora entretenido</li>
                     </ul>
-                    <a className="mb-3" id="btn" href="lesson">Request a Demo</a>
+                    <a className="mb-3" id="btn" href="/contact">Request a Demo</a>
                     <p></p>
                 </section>
             </div>

@@ -7,7 +7,7 @@ class Header extends Component {
             <div className="team">
                 <section className="team-header">
                     <h1>Meet Our Team</h1>
-                    <p>Each member of our team is a specialist in his or her field. Together, we make sure you’re investing where the best returns are, while building loyalty across every touchpoint.</p>
+                    <p>We’re a small team of dreamers each dedicated to the pursuit of making language learning entertaining. Scroll down to meet the co-founders!</p>
                 </section>
             </div>
         );

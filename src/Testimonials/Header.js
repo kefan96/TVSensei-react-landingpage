@@ -6,7 +6,7 @@ class Header extends Component {
         return(
             <section className="testimonials-header">
                 <h1 className="header-title">Testimonials</h1>
-                <p className="header-subtitle">Be our guests, and make our service better</p>
+                <p className="header-subtitle">Help us help you</p>
             </section>
         );
     }

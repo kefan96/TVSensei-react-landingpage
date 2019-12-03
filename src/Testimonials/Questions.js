@@ -25,7 +25,7 @@ class Questions extends Component {
                                 <small>Please enter your email, so we can follow up with you</small>
                             </div>
                             <div className="form-group">
-                                <label for="what">What did you whatch? <span className="required">*</span></label>
+                                <label for="what">What did you watch? <span className="required">*</span></label>
                                 <input type="text" className="form-control" id="what" name="what" placeholder="" required />
                             </div>
                             <div className="form-group">

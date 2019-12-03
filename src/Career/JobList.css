@@ -12,7 +12,8 @@
 
 .job-list-text a {
     cursor: pointer;
-    color: #666;
+    color: steelblue;
+    font-weight: bold;
 }
 
 .job-list-text a:hover {
@@ -22,7 +23,8 @@
 
 email{
     cursor: pointer;
-    color: #666;
+    color: steelblue;
+    font-weight: bold;
 }
 
 email:hover {

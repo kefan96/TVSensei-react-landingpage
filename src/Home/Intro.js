@@ -10,11 +10,8 @@ class Intro extends Component {
                         <div class="col-8">
                             <h3 class="pb-2">Learn language in a New Way</h3>
                             <p>Hi! We’re TVSensei (<em>tee-vee-sen-say-ee</em>).</p>
-                            <p>We’re out to <strong>revolutionize</strong> language learning as we know it!</p>
-                            <p>TVSensei teaches users to speak foreign languages in the context seen on screen—engaging learners with
-                            popular TV shows as both audience and actor using <strong>lessons designed by us</strong>.</p>
-                            <p>Scroll down to learn about our mission and our product. And if you're interested, <a href="/">Contact Us</a> to
-                            see our wonderful contents!</p>
+                            <p>TVSensei is a platform that puts learners in the driver seat—delivering teacher-made language lessons with target language video content of the learner’s choice.</p>
+                            <p>Scroll down to learn about our mission and product. At the bottom of the page you can sign up and find links to our social media to stay up to date on everything TVSensei and get inspired to learn as we await the big launch!</p>
                         </div>
                         <div class="col-1"></div>
                         <div class="col-3">

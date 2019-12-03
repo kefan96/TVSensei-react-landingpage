@@ -12,19 +12,10 @@ class Vission extends Component{
                 </div>
                 <div className="col-7 float-right">
                     <h3 className="pb-2">OUR RAISON D’ÊTRE (WHY WE EXIST)</h3>
-                    <p>Right now we have two main options for learning a language:</p>
-                    <p>1. Take a class</p>
-                    <p></p>
-                    <p>2. Use a program like Rosetta Stone, Duolingo, or Babbel</p>
-                    <p>Option 1 works… if you have the time and money. You’ll interact with your teacher and other students in the
-                    target language and build your fluency.</p>
-                    <p>Option 2 works… if you’re diligent and consistently practice for 10 minutes or more a day until the end of
-                    time. </p>
-                    <p>The reality is that like most new tech, “gamified” learning is only fun while it’s new. Once you’ve done your
-                    hundredth round of “tap the words to create the sentence,” the game has lost its charm.</p>
-                    <p>What is missing from both options is this: real world content that’s both <strong>entertaining</strong> and
-                    <strong>educational</strong> that will drive you to engage with the target language every day. And we’re
-                    talking about a big one: foreign television. </p>
+                    <p>TVSensei is driven by the question, <em>“What makes an effective virtual lesson?”</em></p>
+                    <p>Our mission is to balance learners’ desire for personalized content and classroom learning. We strive to make any content educational through guided viewing and group exercises.</p>
+                    <p>At TVSensei we value educational experiences that are <strong>accessible</strong>, <strong>entertaining</strong>, and <strong>effective</strong>.</p>
+                    <p>An <strong>accessible</strong> lesson is not only available regardless of age or money, it is a lesson anyone can learn from. It is easy to do because it’s <strong>enjoyable</strong> and is worth one’s time because it connects you to new opportunities to <strong>apply the subject you study</strong>.</p>
                 </div>
                 </div>
             </div>

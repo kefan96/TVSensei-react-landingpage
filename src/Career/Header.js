@@ -6,7 +6,7 @@ class Header extends Component {
         return(
             <section className="career-header">
                 <h1 className="career-header-title">Join Us</h1>
-                <p className="career-header-subtitle">We are looking for talents like you</p>
+                <p className="career-header-subtitle">Talented minds thrive here.</p>
             </section>
         );
     }
