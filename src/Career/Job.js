@@ -22,7 +22,7 @@ class Job extends Component {
                 <div className="job" data-toggle="modal" data-target={data_target}>
                     <i className={icon}></i><span className="job-title">{title}</span>
                 </div>
-                <div className="modal" id={modal_id} tabIndex="-1" role="dialog" aria-labelledby="positionModalLabel" aria-hidden="true">
+                <div className="modal fade" id={modal_id} tabIndex="-1" role="dialog" aria-labelledby="positionModalLabel" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                         <div className="modal-header">
