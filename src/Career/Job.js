@@ -37,7 +37,9 @@ class Job extends Component {
                             <h5>Description:</h5>
                             <p>{description}</p>
                             <h5>Duties:</h5>
-                            <p>{duties}</p>
+                            <ul>{duties.map((duty, index) => (
+                                <li key={index}>{duty}</li>
+                            ))}</ul>
                             <h5>Ideal Candidates:</h5>
                             <p>{ideal}</p>
                             <h5>What's in it for you?</h5>

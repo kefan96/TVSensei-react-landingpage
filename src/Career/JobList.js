@@ -40,7 +40,7 @@ class JobList extends Component {
                     title: "Outreach Management",
                     location: "New York, NY",
                     description: "",
-                    duties: "",
+                    duties: [],
                     ideal: "",
                     benefit: "",
                     apply: "",
