@@ -1,8 +1,21 @@
 import React, {Component} from 'react';
 import "./Questions.css";
+import emailjs from "emailjs-com";
 
 class Questions extends Component {
     render() {
+        function sendEmail(e) {
+            e.preventDefault();
+        
+            emailjs.sendForm('default_service', 'contact_template', e.target, 'user_yST0r1jTqkAg5bK8MGvpP')
+                .then(res => {
+                    alert('Email successfully sent!');
+                    window.location.reload(false);
+                }).catch(err => {
+                  alert('Oh well, you failed. Here some thoughts on the error that occured:', err);
+                });
+        }
+
         return(
             <section className="questions">
                 <div className="row">
@@ -14,7 +27,7 @@ class Questions extends Component {
                     <div className="col-md-6">
                         <h3>Your Story</h3>
                         <p>How have you used TV to study a foreign language?</p>
-                        <form>
+                        <form onSubmit={sendEmail}>
                             <div className="form-group">
                                 <label for="name">Name <span className="required">*</span></label>
                                 <input type="text" className="form-control" id="name" name="name" placeholder="First Last" required />
