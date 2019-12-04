@@ -21,12 +21,12 @@
 }
 
 
-email{
+.email{
     cursor: pointer;
     color: steelblue;
     font-weight: bold;
 }
 
-email:hover {
+.email:hover {
     text-decoration: underline;
 }
