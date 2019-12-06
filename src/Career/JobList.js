@@ -39,11 +39,15 @@ class JobList extends Component {
                     key: "3",
                     title: "Outreach Management",
                     location: "New York, NY",
-                    description: "",
-                    duties: [],
-                    ideal: "",
-                    benefit: "",
-                    apply: "",
+                    description: "TVSensei takes popular video content and creates language lessons to practice the spoken language. ELL Lesson Development interns will onboard and work closely with experienced teachers and current ELL students to assess teacher/student needs and design lessons to accompany popular English language videos.",
+                    duties: [
+                        "Create lead sheets for potential content partners and customers",
+                        "Engage with leads to build trust",
+                        "Attend local events to promote the brand and add leads"
+                    ],
+                    ideal: "TVSensei is looking to hire curious, creative individuals looking to build a career in English language education. Ideal candidates can work a minimum of 10 hours per week and are fluent in English and one other language.",
+                    benefit: "Gain valuable experience connecting with an array of people in the education, entertainment, and technology industries. Build valuable connections that may last beyond the internship. Work closely with team members in various roles at a startup and take advantage of TVSensei’s membership in the StartEd Incubator and Amazon’s AWS Loft.",
+                    apply: "Send a resume and cover letter to henry@tvsensei.com. In the cover letter, describe what you hope to gain from working on team, the days and hours you can work on the project, and how you feel you can contribute.",
                     footer: "Successful candidates will be invited to interview. Responses will go out no later than 1 week following submission of each application."
                 }
             ]
